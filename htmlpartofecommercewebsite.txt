@@ -1,0 +1,390 @@
+<!________htmlpartofe-commercewebsite_____________>  
+<html>
+<head>
+    <meta charset="UTF-8";>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>BUYIT -ECOMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> 
+     <script>
+        var menuitems=Document.getElementById("menuitems");
+        menuitems.style.maxHeight="0px";
+        function menuopen()
+        {
+            if(menuitems.style.maxHeight=="0px")
+                {
+                    menuitems.style.maxHeight="200px";
+                }
+            else
+                {
+                    menuitems.style.maxHeight="0px";
+                }
+        }
+    
+    
+    
+    
+    </script>
+    <style type="text/CSS">
+    #background {
+    background-image: url(blackyellowshoeoffer.jpg);
+    padding:40px;
+    }
+    #textbox {
+    background-color:black;
+    }
+    #text {
+    color:white;
+    }
+     #background1 {
+    background-color:skyblue;
+    padding:40px;
+    }
+    #textbox1 {
+    background-color:red;
+    }
+    #text1 {
+    color:white;
+    }
+    </style>
+    </head>
+    <body>
+        <div class="header">
+        <div class="container">
+         <div class="navbar">
+        <div class="logo">
+        <img src="logo1.jpg" width="300px">
+        </div>
+        <nav>
+        <ul id="menuitems">
+            <li><a href="">HOME</a></li>
+            <li><a href="">PRODUCT</a></li>
+            <li><a href="">ABOUT</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">ACCOUNT</a></li>
+            <img src="carticon.png" width="30px" height="30px">
+            <img src="outline_menu_black_24dp.png" class="menu" onclick="menuopen()">
+            </ul>
+            </nav>
+        </div></div>
+        <div class="row">
+        <div class="column2">
+            <h1>Style yourself by being yourself !<br>Ignite the fashion in you!</h1>
+            <em><h2>core products<br>catchy lifestle<br>crown yourself</h2></em>
+            <button href="" class="btn1">Fashion search &#8594;</button>
+            </div>
+            <div class="column2">
+            <img src="fashion3.PNG">
+            
+            </div>
+        </div>
+        </div>
+        <!_______________________next______________>
+        <div class="categories">
+        <div class="smallcontainer">
+            <div class="row">
+            <div class="column3">
+                <a href=""> <img src="C:\Users\User\Documents\html\images\category-1.jpg" width="300" height="400"></a>
+            </div>
+            <div class="column3">
+                <a href=""> <img src="C:\Users\User\Documents\html\images\category-2.jpg" width="300" height="400"></a>
+            </div>
+            <div class="column3">
+               <a href=""><img src="C:\Users\User\Documents\html\images\category-3.jpg" width="300" height="400"></a>
+            </div> 
+                </div>
+            </div>
+        </div>
+        <!______________________next2______________>
+        <div class="smallcontainer">
+        <div class="featuredcategories">
+            <h1>Featured products</h1>
+            </div>
+            <div class="row">
+              <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-1.jpg" width="300" height="300"></a>
+                  <h4>RED printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-4.jpg" width="300" height="300"></a>
+                  <h4>DARK BLUE printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-2.jpg" width="300" height="300"></a>
+                  <h4>BLACK SHOES</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.1650.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-3.jpg" width="300" height="300"></a>
+                  <h4>BLACK pants</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.900.00</h5>
+               </div>
+            </div>
+        </div>
+         <!__________________nextcatchyredshoeoffer______________>
+        <div class="offer1">
+        <div class="row">
+            <div class="column11">
+            <a href=""><img src="redshoeoffer.jpg" width="400" height="400"></a>
+            </div>
+            <div class="coloumn2">
+                <div id="background1">
+                <div id="textbox1">
+                    <div id="text1">
+                        <h1>"""""DOUBLE DAMAKA OFFER""""</h1><br>
+                        <h2> RED SUITS YOU THE BEST<br>EMPOWER YOURSELF!!!!</h2>44<br>
+                        <br>
+                        <em>....CLAIM YOUR COUPONS....</em></div></div></div>
+            </div>
+            </div>
+        </div>
+        <!_________________next3______________________>
+        <div class="smallcontainer">
+        <div class="featuredcontainer1">
+        <h2>Latest products</h2>
+        </div>
+         <div class="row">
+              <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-5.jpg" width="300" height="300"></a>
+                  <h4>RED printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-6.jpg" width="300" height="300"></a>
+                  <h4>DARK BLUE printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-7.jpg" width="300" height="300"></a>
+                  <h4>BLACK SHOES</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.1650.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-8.jpg" width="300" height="300"></a>
+                  <h4>BLACK pants</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.900.00</h5>
+               </div>
+            </div>
+        <div class="row">
+              <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-9.jpg" width="300" height="300"></a>
+                  <h4>RED printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-10.jpg" width="300" height="300"></a>
+                  <h4>DARK BLUE printed shirt</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star-half-o"></i>
+                  </div>
+                  <h5>Rs.500.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-11.jpg" width="300" height="300"></a>
+                  <h4>BLACK SHOES</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.1650.00</h5>
+               </div>
+                <div clas="coloumn4">
+            <a href=""><img src="C:\Users\User\Documents\html\images\product-12.jpg" width="300" height="300"></a>
+                  <h4>BLACK pants</h4>
+                  <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                  <h5>Rs.900.00</h5>
+               </div>
+            </div>
+            </div>
+        <!__________________nextcatchyofferblackyellowshoeoffer______________>
+        <div class="offer2">
+        <div class="row">
+            <div class="column2">
+            <a href=""><img src="blackyellowshoeoffer.jpg" width="400" height="400"></a>
+            </div>
+            <div class="coloumn2">
+                <div id="background">
+                <div id="textbox">
+                    <div id="text">
+                        <h1>FLAT 50% SALE</h1><br>
+                    Buy shoes that make you walk extra miles <br> by making you stronger ecah day<br>
+                        <br>
+                        <em>SURPRISE YOUR LOVED ONES!!!</em></div></div></div>
+            </div>
+            </div>
+        </div>
+        <!_______________testimonials_________________________________>
+        <div class="testimonials">
+            <div class="row">
+                <div class ="coloumn33">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <h5>This website helped me a lot to find cool stuffs<br>and it gives lots of options to style myself</h5>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                    <img src="testimonial1.PNG">
+                    <h3>BECKANS DAVID</h3>
+                 </div>
+                 <div class ="coloumn33">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <h5>This website helped me a lot to find cool stuffs<br>and it gives lots of options to style myself</h5>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                      <i class="fa fa-star"></i>
+                  </div>
+                    <img src="testimonial2.PNG">
+                    <h3>RICHARD HOLMES</h3>
+                 </div>
+                <div class="row">
+                 <div class ="coloumn33">
+                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                    <h5>This website helped me a lot to find cool stuffs<br>and it gives lots of options to style myself</h5>
+                    <div class="rating">
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star "></i>
+                  </div>
+                    <img src="testimonials3.PNG">
+                    <h3>MARY DIA</h3>
+                 </div>
+        </div>
+            </div>
+            <!______________________brand_____________>
+            <div class="brand">
+            <div class="smallcontainer">
+                <div class="row">
+                    <div class="column5">
+                        <img src="samsunglogo.PNG">
+                    </div>
+                    <div class="column5">
+                        <img src="lglogo.PNG">
+                    </div>
+                    <div class="column5">
+                        <img src="hermeslogo.PNG">
+                    </div>
+                    <div class="column5">
+                        <img src="pantaloonslogo.PNG">
+                    </div>
+                    <div class="column5">
+                        <img src="nikelogo.PNG">
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!______________________footer_________________>
+        <div class="footer">
+        <div class="smallcontainer">
+            <div class="row">
+            <div class="footercolumn1">
+                <h2>Foe further clarifications </h2>
+                <p>Download this app in yourios/android phones</p>
+                </div>
+                <div class="footercolumn2">
+                <p>Our app consists of all the fashion accessories for the individuals<br> which makes it even more convenient to handle<br> and buy everything in a single platform</p>
+                <img src="logo1.jpg">
+                </div>
+                 <div class="footercolumn3">
+                <h2>Catchy pages </h2>
+                <ul>
+                     <li>coupons</li>
+                    <li>offer</li>
+                    <li>gift-hampers</li>
+                    <li>discount</li>
+                    <li>year-end-sale</li>
+                     </ul>
+                </div>
+                <div class="footercolumn4">
+                <h2>Connect with us</h2>
+                <ul>
+                     <li>Instagram</li>
+                    <li>facebook</li>
+                    <li>Telegram</li>
+                    <li>Twitter</li>
+                     </ul>
+                </div>
+                 
+                  
+            </div>
+            </div>
+        </div>
+    </body>
+   
+</html>

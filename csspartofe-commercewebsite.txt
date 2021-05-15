@@ -1,0 +1,280 @@
+{
+    
+margin:0;
+padding:0;
+box-sizing:border-box;
+
+    }
+body
+{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display:flex;
+    align-items:center;
+    padding:20px;  
+}
+nav {
+    flex:1;
+    text-align: right;
+    
+}
+nav ul {
+    display:inline-block;
+    list-style-type: none;
+}
+nav ul li  
+{
+    display: inline-block;
+    margin-right: 20px;
+}
+a {
+    color: crimson;
+    text-decoration: none
+}
+p {
+    color:crimson;
+}
+.container {
+    max-width: 1500px;
+    margin:auto;
+    padding-left: 25px;
+    padding-right:  25 px;
+}
+.row
+{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.coloumn2 {
+flex-basis: 50%;
+    max-width:800px;
+}
+.coloumn2 img {
+    width:100%;
+    padding: 50px 0px;
+}
+.column2 h1 {
+    font-size: 90 px;
+    line-height: 60 px;
+    margin:25px 0;
+}
+.column2 h2 {
+    font-size: 25 px;
+    line-height: 20 px;
+    margin:25px 0;
+    color:crimson;
+    font-family: monospace;
+}
+.btn1 {
+    background-color:orange;
+    padding: 8px 30px;
+    border-radius: 30px;
+    color:black;
+    display: inline-block;
+    margin:30px 0;
+    transition: background 0.5s;
+}
+.btn1:hover {
+    background-color: orangered;
+}
+.header {
+    background-color:#F0E68C;
+}
+.header .row
+{
+    margin-top:70px;
+}
+.categories
+{
+    margin:70px 70px 0px 70px;
+    align-items: center;
+}
+.smallconatiner {
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    max-width: 1080px;
+    
+}
+.column3
+{
+    min-width:250 px;
+    flex-basis: 30%;
+    margin-bottom:30px;
+    align-items: center;
+  
+}
+.column3 img
+{
+    width:100%;
+      border-radius: 10%;
+}
+.featuredcategories h1 {
+    text-align: center;
+    text-decoration: overline;
+    margin: 100px 25px 0 25px;
+    line-height: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: auto;
+}
+.coloumn4 img
+{
+width:100%;
+}
+.coloumn4 {
+    padding: 10px;
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 45px;
+    left:50%;
+    transform: translateX(-50%);
+    transition: transfrom 0.5s;
+}
+.rating .fa{
+    color:#ff9900;
+}
+.coloumn4:hover {
+    transform: translateY(5px);
+}
+.featuredcontainer1 h2 {
+    text-align: center;
+    text-decoration: overline;
+    margin: 100px 25px 0 25px;
+    line-height: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: auto;
+}
+.offer2 {
+    background-color:black;
+    margin-top: 100px;
+}
+.column2 h3 {
+    font-family: fantasy;
+    color:black;
+}
+.column2 img {
+    padding: 25px;
+    opacity: 40%;
+}
+.column2 img:hover{
+    opacity: 100%;
+}
+.offer1 {
+    background-color:red;
+    margin-top: 100px;
+}
+.column11 h3 {
+    font-family: fantasy;
+    color:white;
+}
+.column11 img {
+    padding: 25px;
+    opacity: 60%;
+}
+.column11 img:hover{
+    opacity: 100%;
+}
+.testimonials {
+    padding-top: 150px;
+}
+.testimonials .column33 {
+    text-align:center;
+    padding: 40px 20px;
+    cursor:pointer;
+    box-shadow: 0 0 20 0 rgba(0,0,0,0.1);
+    transition: transfrom(0.5s);
+}
+.testimonials .coloumn33 img {
+    width: 50px;
+    margin-top:20px;
+    border-radius:50%;
+}
+.testimonilas .coloumn33:hover {
+    transform: translateY(-10px);
+}
+.fa fa-quote-left{
+    color:crimson;
+    
+}
+.brand {
+    margin:100px auto;
+}
+.column5 img {
+    margin-top:100px;
+    width: 100px;
+    filter: grayscale(100%);
+}
+.column5 img:hover {
+    filter:grayscale(0);
+}
+.footer {
+    background-color: black;
+    padding:60px 0 20px;
+}
+.footercolumn1 h2,p {
+    text-align: left;
+    color:white;
+    font-size: 10px;
+}
+.footercolumn2 img {
+    width:200px;
+    border-radius:25%;
+}
+
+.footercolumn3 ,.footercolumn4 {
+    margin-bottom:20px;
+}
+
+.footercolumn3, .footercolumn4,.footercolumn2,.footercolumn1 ul {
+    font-size: 15px;
+    color:white;
+}
+.menu {
+    margin-left:15px;
+    width:25px;
+    display:none;
+    
+    
+}
+
+@media only screen and (max-width:800px)
+{
+    nav ul {
+        position:absolute;
+        left :0;
+        top:70px;
+        background:#F0E68C;
+        width:100%;
+        overflow:hidden;
+        transition:max-height 0.5s;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right:10px;
+        margin-left:10px;
+        margin-bottom:10px;
+    }
+    nav ul li a{
+         color:crimson;
+    }
+    .menu {
+        display:block;
+        cursor:pointer;
+    }
+}
+@media only screen and(max-width:"600px")
+{
+    .row {
+        text-align: center;
+    }
+    .column1,.column2,.column3 {
+        flex-basis:100%;
+    }
+}
